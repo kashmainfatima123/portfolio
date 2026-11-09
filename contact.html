@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <section class="one">
+            <div>
+                <h3>GET IN TOUCH ✦✦</h3>
+            </div>
+
+            <div>
+                <h1 class="contact">CONTACT</h1>
+            </div>
+
+            <div>
+                <h1 class="me">ME</h1>
+            </div>
+
+            <div>
+                <p>Have a project in mind or just want to say hello? I'd love to hear from you</p>
+            </div>
+
+            <div>✉ kashmainfatima230@gmail.com</div>
+            <div>🅾 kashmainfatima_07</div>
+        </section>
+
+        <section class="form">
+
+            <form id="contact-form">
+
+                <div class="inline">
+                    <input type="text" name="name" placeholder="your name"
+                        class="name" required>
+
+                    <input type="email" name="email" placeholder="your email"
+                        class="name" required>
+                </div>
+
+                <input type="text" name="subject" placeholder="subject"
+                    class="subject" required>
+
+                <input type="text" name="" id="" class="messege" placeholder="enter your messege">
+
+                <div>
+                    <h4>how much you like my work</h4>
+                    <input type="range" name="rating" min="1" max="10">
+                </div>
+
+                <button type="submit" class="submit" id="send-btn">
+                    Send Message ➤
+                </button>
+
+                <p id="success-message" style="display:none; color:green;">
+                    Your message has been sent successfully! ❤️
+                </p>
+
+                <p id="error-message" style="display:none; color:red;">
+                    Something went wrong. Please try again.
+                </p>
+
+                <a href="https://wa.me/923157609840" target="_blank">
+                    <button type="button" class="chat">Contact on WhatsApp</button>
+                </a>
+            </form>
+
+
+        </section>
+
+    </div>
+
+    <script>
+
+        const scriptURL = "https://script.google.com/macros/s/AKfycbyuzq-FHsgJWGSm2CCpPFK_DYQGWqJ6Ewkir979nN97M1rq4GT0NKl2IBa-R2e2lkjLoQ/exec";
+
+        const form = document.getElementById("contact-form");
+
+        form.addEventListener("submit", function(e) {
+
+            e.preventDefault();
+
+            const btn = document.getElementById("send-btn");
+            const success = document.getElementById("success-message");
+            const error = document.getElementById("error-message");
+
+            btn.disabled = true;
+            btn.innerText = "Sending...";
+
+            success.style.display = "none";
+            error.style.display = "none";
+
+            const formData = new FormData(form);
+            const data = new URLSearchParams(formData);
+
+            fetch(scriptURL, {
+                method: "POST",
+                mode: "no-cors",
+                body: data
+            })
+
+            .then(() => {
+
+                success.style.display = "block";
+                form.reset();
+
+                btn.disabled = false;
+                btn.innerText = "Send Message ➤";
+
+            })
+
+            .catch(() => {
+
+                error.style.display = "block";
+
+                btn.disabled = false;
+                btn.innerText = "Send Message ➤";
+
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>

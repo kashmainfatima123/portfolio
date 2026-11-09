@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.main img{
+    border-radius: 30px;
+    margin-left: 30px;
+    border: 4px solid bisque;
+    
+}
+
+body{
+    background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdt9CyauLDdzDNlrXHWLH10u6TBOc0zF_-xiwvHsn0KA&s=10);
+background-size: 1000px;
+}
+
+
+img{
+  transition: transform .2s; /* Animation */
+}
+
+img :hover{
+    transform: scale(1.5);
+}
+
+
+
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+

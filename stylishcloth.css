@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3B000E;
+    border: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ol{
+    display: flex;
+     flex-wrap: wrap;
+    list-style: none;
+   
+}
+li{
+    padding-right: 20px;
+    align-items: center;
+    
+}
+.logo{
+    padding-left: 40px;
+    
+    
+}
+
+.navlinks a{
+    font-family: cursive;
+    font-size: 20px;
+    color: #B0975F;
+    font-weight:bolder ;
+    border-bottom: #D9C5AA;
+    border-width: 80px;
+}
+.icons{
+    display: flex;
+     flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 40px;
+}
+.icons div>img{
+    border-radius: 200px;
+    height: 40px;
+    
+}
+.cart{
+    position: relative;
+}
+.o{
+    color: beige;
+}
+
+.phone{
+    position: relative;
+    top: 10px;
+}
+
+.header{
+    /* padding-top: 70px; */
+    display: flex;
+     flex-wrap: wrap;
+  
+}
+.header img{
+
+    width: 550px;
+    filter:drop-shadow(2px 7px 20px#ba9e62)
+
+}
+.kids{
+    padding-left: 200px;
+   
+}
+.heading{
+    color: #B0975F;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+h1{
+    font-size: 70px;
+}
+.button{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+button{
+  
+    width: 250px;
+    background-color: #ba9e62;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    color: #3B000E;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B0975F;
+    padding-top: 20px;
+}
+h4{
+    font-size: 30px;
+}
+.phone{
+    position: absolute;
+}
+.phone img{
+    width: 60px;
+    position: relative;
+    top: 0px;
+    left: 980px;
+    filter:drop-shadow(9px 20px 30px#eedf06)
+}
+.kids img{
+    position: absolute;
+}
+span .sale img{
+    width: 100px;
+    position: relative;
+    bottom:400px;
+    left: 850px;
+    filter:drop-shadow(9px 2px 1px#eedf06)
+}
+.ribbon img{
+    width: 50px;
+    padding-right: 20px;
+}
+.bar{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6d08205b;
+    margin-top: 90px;
+    height: 80px;
+}
+.bar div{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+h3{
+    color: #B0975F;
+}
+.product{
+    display: flex;
+     /* flex-wrap: wrap; */
+    margin-top: 40px;
+    background-color: #3B000E;
+    
+}
+.png{
+    /* width: 250px; */
+}
+.png img{
+    background-color: #78062078;
+    border-radius: 40px;
+    height: 290px;
+}
+.product div {
+    
+    
+    padding-right: 150px;
+   
+}
+.png h3{
+    align-items: center;
+    margin-left: 85px;
+}
+.kids img :hover{
+    size: 900px;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block; 
+  height: 50px; 
+}
+
+
+.girl {
+  position: absolute;
+  top: 500px;    
+  left: 30px;
+  z-index: 10;  
+}
+
+.img {
+  display: block;
+}
+/* .arms{
+    position: relative;
+}
+.btw{
+    position: absolute;
+    top: 10px;
+    width: 110px;
+} */
+
+
+/* 2. The Child Element moves freely relative to the parent */
+.arms {
+  position: absolute;
+  top: 1000px;    /* Adjusts distance from the top of the container */
+  left: 250px;
+  z-index: 10;  /* Ensures the image sits on top of other elements */
+}
+
+.btw {
+  display: block;
+}
+.design {
+  position: absolute;
+  top: 850px;    
+  left: 850px;
+  z-index: 10;  
+}
+
+.des {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 1630px;    /* Adjusts distance from the top of the container */
+  left: 300px;
+  z-index: 10; }
+  
+.overlay :hover{
+width: 190px;
+  filter:drop-shadow(0px 2px 20px#957d48)
+
+}
+
+.over{
+  display: block;
+}
+.overlay2 {
+  position: absolute;
+  top: 1630px;    /* Adjusts distance from the top of the container */
+  left: 1070px;
+  z-index: 10; 
+  
+}
+
+.over2{
+  display: block;
+}
+.overlay2 :hover{
+  width: 210px;
+  filter:drop-shadow(0px 2px 20px#f3b123b4)
+
+}
+
+.ring{
+    display: flex;
+     flex-wrap: wrap;
+    margin-left: 90px;
+     background-color: #78062078;
+     padding: 20px;
+      border-radius: 60px;
+      width: 500px;
+}
+.right{
+    display: flex;
+     flex-wrap: wrap;
+    margin-left: 200px;
+     background-color: #78062078;
+      padding: 20px;
+      border-radius: 60px;
+       width: 500px;
+}
+.right img{
+}
+.aa img{
+    padding-left: 15px;
+    
+}
+.all{
+    display: flex;
+     flex-wrap: wrap;
+    padding-top: 40px;
+    
+    
+}
+.left,.right{
+    justify-content: space-around;
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #B0975F
+
+}
+.two2{
+width: 190px;
+margin-top: 30px;
+}
+.mian:hover{
+    width: 600px;
+    filter:drop-shadow(4px 9px 29px#957d48)
+    
+}
+.png :hover{
+   box-shadow:3px 3px 20px#f1c974 ;
+    height: 350px;
+    margin-top: 60px;
+}
+@media only screen and (mix-width: 375px) {
+    .mian{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(5, 58, 75);
+    }
+}
+.footer img{
+  filter:drop-shadow(9px 2px 1px #f3b123b4)  
+}
+.offer{
+    justify-content: space-around;
+    align-items: center;
+    /* padding-left: 200px; */
+    margin-top: 50px;
+}
+
+.ff{
+    margin-top: 130px;
+    border-radius: 50px;
+    box-shadow: #eede06b9;
+    width: 1200px; 
+    margin: 60px;
+    height: 200px; 
+    background-color: #8d0928d1;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #B0975F;
+}

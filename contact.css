@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(contact.png);
+    background-size: cover;
+}
+
+.one {
+    margin-left: 580px;
+    margin-top: 70px;
+}
+
+h3 {
+    color: #e1b9ad;
+    font-family: fantasy;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.contact {
+    margin-top: 30px;
+    color: #e1b9ad;
+    font-family: cursive;
+    font-size: 40px;
+    font-family: 'Bodoni Moda', serif;
+
+}
+
+.me {
+    font-family: 'Ballet', cursive;
+    font-size: 90px;
+    color: #8B1735;
+    font-weight: 200;
+}
+
+p {
+    color: #e1b9ad;
+    width: 200px;
+
+    margin-bottom: 50px;
+}
+
+
+div {
+    color: #e1b9ad;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+
+input::placeholder {
+    color: #D8B5A9;
+    font-family: 'Bodoni Moda', serif;
+    padding-left: 20px;
+}
+
+.form {
+    margin-top: 200px;
+
+}
+
+input {
+    background-color: #270810a9;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px #D8B5A9;
+    margin-bottom: 20px;
+    color: #e1b9ad;
+
+}
+
+
+
+.name{
+border: 2px solid #C59C91;
+}
+
+
+.subject {
+    width: 350px;
+    border: 2px solid #C59C91;
+    color: #e1b9ad;
+}
+
+.messege {
+    width: 350px;
+    height: 100px;
+    border: 2px solid #C59C91;
+    color: #e1b9ad;
+}
+
+.submit{
+    background-color: #270810a9;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px #D8B5A9;
+    margin-bottom: 20px;
+    color: #e1b9ad;
+    width: 150px;
+    border: 2px solid #C59C91;
+    color: #e1b9ad;
+}
+
+
+.submit:hover{
+
+    color: #270810a9;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px #D8B5A9;
+    margin-bottom: 20px;
+    background-color: #e1b9ad;
+    width: 150px;
+    border: 2px solid #521504;
+    color: #360e02;
+}
+
+.chat{
+
+    
+        color: #270810a9;
+        height: 50px;
+        border-radius: 30px;
+        border: 2px #D8B5A9;
+        margin-bottom: 20px;
+        background-color: #e1b9ad;
+        width: 150px;
+        border: 2px solid #521504;
+        color: #360e02;
+}
+
+.chat:hover{
+
+    background-color: #270810a9;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px #D8B5A9;
+    margin-bottom: 20px;
+    color: #e1b9ad;
+    width: 150px;
+    border: 2px solid #C59C91;
+    color: #e1b9ad;
+}

@@ -1,0 +1,197 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(gg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.cards{
+    background-gradient: green ,white;
+}
+.one{
+    color: aliceblue;
+    font-weight: bolder;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+}
+.navbar{
+    display: inline;
+     justify-content: space-between;
+    
+}
+.ol {
+    margin-left: 50px;
+    }
+    li{
+        display: inline; 
+        margin-right: 25px;
+        font-size: 13px;  
+    }
+    .HOME{
+color: #f4f5f3;
+padding: 20px;
+border-radius: 30;
+padding-bottom: 20px;
+    }
+    .home{
+border: 0cqmax;
+border-radius: 99px;
+background-color: #031E19;
+
+    }
+    .navbar{
+font-family: cursive;
+
+    }
+    a{
+        color: #031E19;
+    }
+    
+    .nav{
+         background: #f4f5f3;
+    border-radius: 99px;
+    border: #f4f5f3;
+    justify-content: space-around;
+    border width: 50px ;
+     width: 45%;      
+  max-width: 1000px; 
+  margin: 0 auto;
+    /* padding: 8px 15px; */
+    display: flex;
+    gap: 20px;
+    align-items: center
+    
+    
+        }
+.logo{
+    display: inline;
+    
+}
+.gen{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    padding-left: 40px;
+
+}
+.li{
+    display: inline;
+}    
+  hr{
+    width: 100px;
+   color: chartreuse;
+  } 
+  i{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-size: 120px;
+    padding-left: 40px;
+  } 
+  .world{
+    color: chartreuse;
+   font-family: "Pacifico", cursive;
+    text-decoration: underline;
+    font-size: 120px;
+  }
+  .simple{
+color: #f4f5f3;
+ padding-left: 40px;
+  }
+  .button{
+    display: flex;
+     padding-left: 40px;
+  }
+  .click{
+   
+padding: 20px;
+border: #63b610;
+border-radius: 40px;
+padding-bottom: 20px;
+background-color: #63b610;
+ padding-left: 40px;
+  }
+  pre div{
+    font-family: cursive;
+    color: #e6ece0;
+  }
+.logo {
+display: inline;
+
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    color: #63b610;
+}
+.shop{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e6ece0;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+.shop{
+display: flex;
+justify-content: space-around;
+}
+.hr{
+    width: 700px;
+    color: #63b610;
+    align-items: baseline;
+}
+.cards{
+    display: flex;
+   gap: calc(90px);
+background-image: url(dg.png);
+padding-top: 40px;
+}
+   
+   .earpods{
+    border: #031E19;
+    border-radius:  50px;
+    width: 200px; 
+    /* padding-left: 40px; */
+
+}
+.phone{
+ border: #031E19;
+    border-radius:  50px;
+    width: 200px;
+}
+.remote{
+ border: #031E19;
+    border-radius:  50px;
+    width: 200px;
+}
+.powerbank{
+ border: #031E19;
+    border-radius:  50px;
+    width: 200px;
+}
+.watch{
+     border: #031E19;
+    border-radius:  50px;
+    width: 200px;
+}
+.cards:hover img{
+    size: 400;
+    width: 900;
+    padding: 40px;
+}
+.hover:hover{
+    border: 0cqmax;
+border-radius: 99px;
+background-color: #031E19;
+font-family: 'Courier New', Courier, monospace;
+color: #e6ece0;
+padding: 30px;
+}
+.home:hover{
+    padding: 30px;
+    background-color: #e6ece0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #031E19;
