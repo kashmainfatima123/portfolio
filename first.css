@@ -15,6 +15,7 @@ body :hover {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: azure;
 
 }
 
@@ -25,19 +26,20 @@ body :hover {
 
 button {
     position: relative;
-    top: 520px;
-    left: 560px;
+    top: 495px;
+    left: 550px;
     background-color: rgb(223, 181, 128);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     padding: 10px;
     border-radius: 30px;
-    width: 280px;
+    width: 300px;
+    height: 50px;
 }
 
 
 
 button :hover {
-    color: rgb(63, 21, 21);
-    background-color: rgb(216, 170, 109);
+   
+   color: rgb(216, 170, 109);
 }
